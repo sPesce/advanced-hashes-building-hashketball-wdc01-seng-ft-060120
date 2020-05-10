@@ -54,8 +54,8 @@ def player(name, number, shoe, points, rebounds, assists, steals, blocks, slam_d
   player = 
   {
     :player_name => name,
-    :number      => number.to_s,
-    :shoe        => shoe.to_s,
+    :number      => number,
+    :shoe        => shoe,
     :points      => points,
     :rebounds    => rebounds,
     :assists     => assists,
