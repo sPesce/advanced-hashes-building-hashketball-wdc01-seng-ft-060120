@@ -48,7 +48,7 @@ def team_helper
 end
 
 #create hash for each player
-def player(name, number, shoe, points, rebounds, assits, steals, blocks, slam_dunks)
+def player(name, number, shoe, points, rebounds, assists, steals, blocks, slam_dunks)
   player = 
   {
     :player_name => name,
