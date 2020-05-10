@@ -32,13 +32,13 @@ def team_helper
   }
   mid_Nets = 
   {
-    :team    => "Brooklyn Nets",
+    :team_name    => "Brooklyn Nets",
     :colors  => ['Black', 'White'],
     :players => []
   }
   mid_Hornets =
   {
-    :team    => "Charlotte Hornets",
+    :team_name    => "Charlotte Hornets",
     :colors  => ["Turquoise", "Purple"],
     :players => []
   }
