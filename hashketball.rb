@@ -2,8 +2,15 @@ require 'pry'
 def game_hash
   NETS_PLAYERS = 
   [
-    player("Alan Anderson", "0", "16", 22, 12, 12, 3, 1 ,1),
-    player("Reggie Evans" , "30", "14")
+    player("Alan Anderson",  0, 16, 22, 12, 12,  3,  1,  1),
+    player("Reggie Evans" , 30, 14, 12, 12, 12, 12, 12,  7),
+    player("Brook Lopez"  , 11, 17, 17, 19, 10,  3,  1, 15),
+    player("Mason Plumlee",  1, 19, 26, 11,  6,  3,  8,  5),
+    player("Jason Terry"  , 31, 15, 19,  2,  2,  4, 11,  1)
+  ]
+  HORNETS_PLAYERS =
+  [ 
+    player("Jeff Adrien")
   ]
 end
 
