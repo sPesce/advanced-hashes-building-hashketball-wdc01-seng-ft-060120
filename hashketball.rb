@@ -7,12 +7,27 @@ def game_hash
   }
   mid = 
   {
-    :team   => "",
-    :colors => [],
+    :team    => "",
+    :colors  => [],
     :players => []
   }
   top.each{|key, value|
     top[key] = mid
   }
-  binding.pry 
+  
+end
+
+def player_helper(name, number, shoe, points, rebounds, assits, steals, blocks, slam_dunks)
+  player = 
+  {
+    :player_name => name,
+    :number      => number,
+    :shoe        => shoe,
+    :points      => points,
+    :rebounds    => rebounds,
+    :assists     => assists,
+    :steals      => steals,
+    :blocks      => blocks,
+    :slam_dunks  => slam_dunks
+  }
 end
