@@ -42,9 +42,11 @@ def team_helper
     :colors  => ["Turquoise", "Purple"],
     :players => []
   }
+  
   top[:home] = mid_Nets
   top[:away] = mid_Hornets
   
+  top
 end
 
 #create hash for each player
