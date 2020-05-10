@@ -1,6 +1,6 @@
 require 'pry'
 def game_hash
-  NETS_PLAYERS = 
+  nets_players = 
   [
     player("Alan Anderson",  0, 16, 22, 12, 12,  3,  1,  1),
     player("Reggie Evans" , 30, 14, 12, 12, 12, 12, 12,  7),
@@ -8,7 +8,7 @@ def game_hash
     player("Mason Plumlee",  1, 19, 26, 11,  6,  3,  8,  5),
     player("Jason Terry"  , 31, 15, 19,  2,  2,  4, 11,  1)
   ]
-  HORNETS_PLAYERS =
+  hornets_players =
   [ 
     player("Jeff Adrien",       4, 18, 10,  1,  1,  2,  7,  2),
     player("Bismack Biyombo",   0, 16, 12,  4,  7, 22, 15, 10),
@@ -17,8 +17,8 @@ def game_hash
     player("Kemba Walker",     33, 15,  6, 12, 12,  7,  5, 12)
   ]
   team = team_helper
-  team[:home][:players] = NETS_PLAYERS
-  team[:away][:players] = HORNETS_PLAYERS
+  team[:home][:players] = nets_players
+  team[:away][:players] = hornets_players
   
   team 
 end
