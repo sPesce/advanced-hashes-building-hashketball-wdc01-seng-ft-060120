@@ -10,8 +10,17 @@ def game_hash
   ]
   HORNETS_PLAYERS =
   [ 
-    player("Jeff Adrien")
+    player("Jeff Adrien",       4, 18, 10,  1,  1,  2,  7,  2),
+    player("Bismack Biyombo",   0, 16, 12,  4,  7, 22, 15, 10),
+    player("DeSagna Diop",      2, 14, 24, 12, 12,  4,  5,  5),
+    player("Ben Gordon",        8, 15, 33,  3,  2,  1,  1,  0),
+    player("Kemba Walker",     33, 15,  6, 12, 12,  7,  5, 12)
   ]
+  team = team_helper
+  team[:home][:players] = NETS_PLAYERS
+  team[:away][:players] = HORNETS_PLAYERS
+  
+  team 
 end
 
 #return team with details and empty player array
